@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+nav button {
+  margin-right: 10px;
+}
+
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card, .cart-row {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+}
